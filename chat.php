@@ -1,6 +1,6 @@
 <?php
-echo "COPYRIGHT : SGB TEAM\n\n";
-echo "Nomor Target?\nInput : ";
+echo "Gaenan dewe njer!\n\n";
+echo "Nomor sing kok spam?\nnomere : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
@@ -12,7 +12,7 @@ $cek = trim(fgets(STDIN));
 if($cek=="n") exit("Stopped!\n");
 echo "Jumlah?\nInput : ";
 $jumlah = trim(fgets(STDIN));
-for($a=0;$a<$jumlah;$a++) {
+for($a=0;$a<$pesan sing kok kirim;$a++) {
 	$rand1 = md5(rand(12345678,98765432));
 	$rand2 = md5(rand(12345678,98765432));
 	$rand = array($rand1,$rand2);
